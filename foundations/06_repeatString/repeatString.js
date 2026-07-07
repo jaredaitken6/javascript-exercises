@@ -1,5 +1,10 @@
 const repeatString = function(string, num) {
     let repeatWordArray = [];
+
+    if (num < 0) {
+        return 'ERROR'
+    }
+
      for (let i = 0; i < num; i++) {
         repeatWordArray.push(string);
      }
