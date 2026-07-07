@@ -2,7 +2,7 @@ const repeatString = function(string, num) {
     let repeatWordArray = [];
 
     if (num < 0) {
-        return 'ERROR'
+        return 'ERROR';
     }
 
      for (let i = 0; i < num; i++) {
